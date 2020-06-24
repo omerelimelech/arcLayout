@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E020D9E724A2622E0002424E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020D9E624A2622E0002424E /* AppDelegate.swift */; };
+		E020D9EB24A2622E0002424E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020D9EA24A2622E0002424E /* ViewController.swift */; };
+		E020D9EE24A2622E0002424E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E020D9EC24A2622E0002424E /* Main.storyboard */; };
+		E020D9F124A2622E0002424E /* ArcCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E020D9EF24A2622E0002424E /* ArcCollectionView.xcdatamodeld */; };
+		E020D9F324A262300002424E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E020D9F224A262300002424E /* Assets.xcassets */; };
+		E020D9F624A262300002424E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E020D9F424A262300002424E /* LaunchScreen.storyboard */; };
+		E020DA0124A262300002424E /* ArcCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020DA0024A262300002424E /* ArcCollectionViewTests.swift */; };
+		E020DA0C24A262300002424E /* ArcCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020DA0B24A262300002424E /* ArcCollectionViewUITests.swift */; };
+		E020DA1D24A269360002424E /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020DA1B24A269360002424E /* CircleCollectionViewCell.swift */; };
+		E020DA1E24A269360002424E /* CircleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E020DA1C24A269360002424E /* CircleCollectionViewCell.xib */; };
+		E020DA2024A2A4410002424E /* ArcLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020DA1F24A2A4400002424E /* ArcLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E020D9FD24A262300002424E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E020D9DB24A2622E0002424E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E020D9E224A2622E0002424E;
+			remoteInfo = ArcCollectionView;
+		};
+		E020DA0824A262300002424E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E020D9DB24A2622E0002424E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E020D9E224A2622E0002424E;
+			remoteInfo = ArcCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E020D9E324A2622E0002424E /* ArcCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020D9E624A2622E0002424E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E020D9EA24A2622E0002424E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E020D9ED24A2622E0002424E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E020D9F024A2622E0002424E /* ArcCollectionView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArcCollectionView.xcdatamodel; sourceTree = "<group>"; };
+		E020D9F224A262300002424E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E020D9F524A262300002424E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E020D9F724A262300002424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E020D9FC24A262300002424E /* ArcCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020DA0024A262300002424E /* ArcCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcCollectionViewTests.swift; sourceTree = "<group>"; };
+		E020DA0224A262300002424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E020DA0724A262300002424E /* ArcCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020DA0B24A262300002424E /* ArcCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcCollectionViewUITests.swift; sourceTree = "<group>"; };
+		E020DA0D24A262300002424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E020DA1B24A269360002424E /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E020DA1C24A269360002424E /* CircleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleCollectionViewCell.xib; sourceTree = "<group>"; };
+		E020DA1F24A2A4400002424E /* ArcLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E020D9E024A2622E0002424E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020D9F924A262300002424E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020DA0424A262300002424E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E020D9DA24A2622E0002424E = {
+			isa = PBXGroup;
+			children = (
+				E020D9E524A2622E0002424E /* ArcCollectionView */,
+				E020D9FF24A262300002424E /* ArcCollectionViewTests */,
+				E020DA0A24A262300002424E /* ArcCollectionViewUITests */,
+				E020D9E424A2622E0002424E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E020D9E424A2622E0002424E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E020D9E324A2622E0002424E /* ArcCollectionView.app */,
+				E020D9FC24A262300002424E /* ArcCollectionViewTests.xctest */,
+				E020DA0724A262300002424E /* ArcCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E020D9E524A2622E0002424E /* ArcCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E020D9E624A2622E0002424E /* AppDelegate.swift */,
+				E020DA1F24A2A4400002424E /* ArcLayout.swift */,
+				E020D9EA24A2622E0002424E /* ViewController.swift */,
+				E020DA2224A375AF0002424E /* Helpers */,
+				E020DA2124A3759C0002424E /* CollectionViewCell */,
+				E020D9F724A262300002424E /* Info.plist */,
+			);
+			path = ArcCollectionView;
+			sourceTree = "<group>";
+		};
+		E020D9FF24A262300002424E /* ArcCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E020DA0024A262300002424E /* ArcCollectionViewTests.swift */,
+				E020DA0224A262300002424E /* Info.plist */,
+			);
+			path = ArcCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		E020DA0A24A262300002424E /* ArcCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E020DA0B24A262300002424E /* ArcCollectionViewUITests.swift */,
+				E020DA0D24A262300002424E /* Info.plist */,
+			);
+			path = ArcCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		E020DA2124A3759C0002424E /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E020DA1B24A269360002424E /* CircleCollectionViewCell.swift */,
+				E020DA1C24A269360002424E /* CircleCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E020DA2224A375AF0002424E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E020D9EC24A2622E0002424E /* Main.storyboard */,
+				E020D9F224A262300002424E /* Assets.xcassets */,
+				E020D9F424A262300002424E /* LaunchScreen.storyboard */,
+				E020D9EF24A2622E0002424E /* ArcCollectionView.xcdatamodeld */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E020D9E224A2622E0002424E /* ArcCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020DA1024A262300002424E /* Build configuration list for PBXNativeTarget "ArcCollectionView" */;
+			buildPhases = (
+				E020D9DF24A2622E0002424E /* Sources */,
+				E020D9E024A2622E0002424E /* Frameworks */,
+				E020D9E124A2622E0002424E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcCollectionView;
+			productName = ArcCollectionView;
+			productReference = E020D9E324A2622E0002424E /* ArcCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E020D9FB24A262300002424E /* ArcCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020DA1324A262300002424E /* Build configuration list for PBXNativeTarget "ArcCollectionViewTests" */;
+			buildPhases = (
+				E020D9F824A262300002424E /* Sources */,
+				E020D9F924A262300002424E /* Frameworks */,
+				E020D9FA24A262300002424E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E020D9FE24A262300002424E /* PBXTargetDependency */,
+			);
+			name = ArcCollectionViewTests;
+			productName = ArcCollectionViewTests;
+			productReference = E020D9FC24A262300002424E /* ArcCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E020DA0624A262300002424E /* ArcCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020DA1624A262300002424E /* Build configuration list for PBXNativeTarget "ArcCollectionViewUITests" */;
+			buildPhases = (
+				E020DA0324A262300002424E /* Sources */,
+				E020DA0424A262300002424E /* Frameworks */,
+				E020DA0524A262300002424E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E020DA0924A262300002424E /* PBXTargetDependency */,
+			);
+			name = ArcCollectionViewUITests;
+			productName = ArcCollectionViewUITests;
+			productReference = E020DA0724A262300002424E /* ArcCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E020D9DB24A2622E0002424E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Omer Elimelech";
+				TargetAttributes = {
+					E020D9E224A2622E0002424E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E020D9FB24A262300002424E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E020D9E224A2622E0002424E;
+					};
+					E020DA0624A262300002424E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E020D9E224A2622E0002424E;
+					};
+				};
+			};
+			buildConfigurationList = E020D9DE24A2622E0002424E /* Build configuration list for PBXProject "ArcCollectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E020D9DA24A2622E0002424E;
+			productRefGroup = E020D9E424A2622E0002424E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E020D9E224A2622E0002424E /* ArcCollectionView */,
+				E020D9FB24A262300002424E /* ArcCollectionViewTests */,
+				E020DA0624A262300002424E /* ArcCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E020D9E124A2622E0002424E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020D9F624A262300002424E /* LaunchScreen.storyboard in Resources */,
+				E020D9F324A262300002424E /* Assets.xcassets in Resources */,
+				E020DA1E24A269360002424E /* CircleCollectionViewCell.xib in Resources */,
+				E020D9EE24A2622E0002424E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020D9FA24A262300002424E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020DA0524A262300002424E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E020D9DF24A2622E0002424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020D9EB24A2622E0002424E /* ViewController.swift in Sources */,
+				E020D9E724A2622E0002424E /* AppDelegate.swift in Sources */,
+				E020DA1D24A269360002424E /* CircleCollectionViewCell.swift in Sources */,
+				E020DA2024A2A4410002424E /* ArcLayout.swift in Sources */,
+				E020D9F124A2622E0002424E /* ArcCollectionView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020D9F824A262300002424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020DA0124A262300002424E /* ArcCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020DA0324A262300002424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020DA0C24A262300002424E /* ArcCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E020D9FE24A262300002424E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E020D9E224A2622E0002424E /* ArcCollectionView */;
+			targetProxy = E020D9FD24A262300002424E /* PBXContainerItemProxy */;
+		};
+		E020DA0924A262300002424E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E020D9E224A2622E0002424E /* ArcCollectionView */;
+			targetProxy = E020DA0824A262300002424E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E020D9EC24A2622E0002424E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E020D9ED24A2622E0002424E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E020D9F424A262300002424E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E020D9F524A262300002424E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E020DA0E24A262300002424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E020DA0F24A262300002424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E020DA1124A262300002424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FHC6MWKSK;
+				INFOPLIST_FILE = ArcCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerElimelech.ArcCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E020DA1224A262300002424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FHC6MWKSK;
+				INFOPLIST_FILE = ArcCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerElimelech.ArcCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E020DA1424A262300002424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FHC6MWKSK;
+				INFOPLIST_FILE = ArcCollectionViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerElimelech.ArcCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcCollectionView.app/ArcCollectionView";
+			};
+			name = Debug;
+		};
+		E020DA1524A262300002424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FHC6MWKSK;
+				INFOPLIST_FILE = ArcCollectionViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerElimelech.ArcCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcCollectionView.app/ArcCollectionView";
+			};
+			name = Release;
+		};
+		E020DA1724A262300002424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FHC6MWKSK;
+				INFOPLIST_FILE = ArcCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerElimelech.ArcCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcCollectionView;
+			};
+			name = Debug;
+		};
+		E020DA1824A262300002424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FHC6MWKSK;
+				INFOPLIST_FILE = ArcCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerElimelech.ArcCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E020D9DE24A2622E0002424E /* Build configuration list for PBXProject "ArcCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020DA0E24A262300002424E /* Debug */,
+				E020DA0F24A262300002424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E020DA1024A262300002424E /* Build configuration list for PBXNativeTarget "ArcCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020DA1124A262300002424E /* Debug */,
+				E020DA1224A262300002424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E020DA1324A262300002424E /* Build configuration list for PBXNativeTarget "ArcCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020DA1424A262300002424E /* Debug */,
+				E020DA1524A262300002424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E020DA1624A262300002424E /* Build configuration list for PBXNativeTarget "ArcCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020DA1724A262300002424E /* Debug */,
+				E020DA1824A262300002424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E020D9EF24A2622E0002424E /* ArcCollectionView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E020D9F024A2622E0002424E /* ArcCollectionView.xcdatamodel */,
+			);
+			currentVersion = E020D9F024A2622E0002424E /* ArcCollectionView.xcdatamodel */;
+			path = ArcCollectionView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E020D9DB24A2622E0002424E /* Project object */;
+}
